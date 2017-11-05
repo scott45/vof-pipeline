@@ -25,7 +25,7 @@ WORKDIR /app
 
 ## clone the repo
 RUN \
-git clone https://scott45:SCOTTb5@github.com/andela/vof-tracker.git 
+git clone https://username:password@github.com/andela/vof-tracker.git 
 
 ## make virtualenv and install requirements
 RUN gem install bundler --no-ri --no-rdoc  
